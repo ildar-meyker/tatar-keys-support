@@ -11,7 +11,7 @@ const lettersMap = {
 };
 
 // Create tooltip
-const $tooltip = $('<div class="tatar-tooltip"></div>').appendTo( $( body ) ) ;
+const $tooltip = $('<div class="tatar-tooltip"></div>').appendTo( $('body') ) ;
 
 // Add tooltip styles
 const $styles  = $(`<style>
@@ -33,7 +33,7 @@ const $styles  = $(`<style>
       content: '→';
       display: block;
     }
-</style>`).appendTo( $(body) );
+</style>`).appendTo( $('body') );
 
 // When active, replacement is possible
 let isTooltipActive = false;
@@ -53,8 +53,6 @@ function handleKeydown(e) {
 
         e.target.value = newValue;
         e.target.selectionEnd = cursorPos;
-
-        return;
     }
 
     // Watch letters
