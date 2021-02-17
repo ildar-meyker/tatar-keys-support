@@ -17,7 +17,7 @@ const $tooltip = $('<div class="tatar-tooltip"></div>').appendTo( $('body') ) ;
 const $styles  = $(`<style>
     .tatar-tooltip {
       display: none;
-      position: fixed;
+      position: absolute;
       top: 0;
       left: 0;
       margin-top: -80px;
