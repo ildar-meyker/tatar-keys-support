@@ -10,6 +10,8 @@
 
 ### Пример
 
+https://codepen.io/ildar-meyker/pen/xxRdxpv
+
 ```js
 import TatarKeysSupport from 'tatar-keys-support';
 
